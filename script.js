@@ -1,7 +1,7 @@
 
 const handleSubmit = (event) => {
   event.preventDefault();
-  
+
   const name = document.querySelector("input[name=name]").value;
   const email = document.querySelector("input[name=email]").value;
   
